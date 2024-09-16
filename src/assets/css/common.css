@@ -1,0 +1,32 @@
+.form-control {
+  border-radius: 4.25rem;
+}
+
+.breadcrumb {
+  padding: 1rem;
+  margin-bottom: 0;
+}
+
+.breadcrumb-nav {
+  --bs-breadcrumb-divider: '>';
+}
+.dropdown-menu > p {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  width: max-content;
+}
+
+.navbar {
+  margin-top: 1rem;
+  background-color: white;
+  border-radius: 1rem;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.search-input {
+  border-width: medium;
+}

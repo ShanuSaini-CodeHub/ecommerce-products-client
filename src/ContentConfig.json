@@ -1,0 +1,40 @@
+{
+  "login": {
+    "email": "Email Address",
+    "password": "Password",
+    "submitCta": "Submit",
+    "signIn": {
+      "header": "Sign In",
+      "emailPlaceholder": "Enter email",
+      "passwordPlaceholder": "Enter password"
+    },
+    "signUp": {
+      "header": "Sign Up",
+      "name": "Full Name",
+      "namePlaceholder": "e.g. Shanu Saini",
+      "emailPlaceholder": "Email address",
+      "passwordPlaceholder": "Password",
+      "confirmPassword": "Confirm Password",
+      "confirmPasswordPlaceholder": "Re-enter your Password"
+    },
+    "validationMsg": {
+      "nameEmpty": "Name should not be empty",
+      "nameError": "Username must be between 3 and 25 characters.",
+      "emailEmpty": "Email address should not be empty",
+      "emailError": "Email should be in correct format. e.g. abc@example.com",
+      "passwordEmpty": "Password should not be empty",
+      "passwordError": "Password must has at least 8 characters with 1 lowercase character, 1 uppercase character, 1 number, and 1 special character in (!@#$%^&*).",
+      "loginPasswordEmpty": "Password should not be empty",
+      "loginPasswordError": "Password didn't match.",
+      "confirmPasswordEmpty": "Please enter the password again.",
+      "confirmPasswordError": "Password and Confirm Password does not match."
+    }
+  },
+  "api": {
+    "getLoginDetails": "http://localhost:3001/login",
+    "postLoginDetails": "http://localhost:3001/signup",
+    "getProductsList": "http://localhost:3001/products-list",
+    "getProductSuggestions": "http://localhost:3001/product-suggestions",
+    "getSearchResults": "http://localhost:3001/search-results"
+  }
+}

@@ -1,0 +1,32 @@
+body {
+  background: #E0E0E0;
+}
+
+.details {
+  border: 1.5px solid grey;
+  color: #212121;
+  width: 100%;
+  height: auto;
+  box-shadow: 0px 0px 10px #212121;
+}
+
+.img-thumbnail {
+  border: none;
+}
+
+.card {
+  box-shadow: 0 20px 40px rgba(0, 0, 0, .2);
+  border-radius: 5px;
+  padding-bottom: 10px;
+  margin: 1rem;
+}
+
+.product-list-row {
+  justify-content: center;
+}
+
+@media (min-width: 768px) {
+  .product-list-card {
+    width: 30%;
+  }
+}
